@@ -14,10 +14,10 @@ class MyComponent extends HTMLElement {
             <h1>My component</h1>
             <div>
                 <div>
-                   <label>Index :</label>&nbsp;<span id="index-attr-value">${this.getAttribute('index') || '0'}</span>
+                   <label for="index-attr-value">Index :</label>&nbsp;<span id="index-attr-value">${this.getAttribute('index') || '0'}</span>
                 </div>
                 <div>
-                   <label>List :</label>&nbsp;<span id="list-prop-value">${JSON.stringify(this.list || [])}</span>
+                   <label for="list-prop-value">List :</label>&nbsp;<span id="list-prop-value">${JSON.stringify(this.list || [])}</span>
                 </div>
             </div>
             <div>
