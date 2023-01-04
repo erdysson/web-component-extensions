@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Observed properties</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="polyfills/scoped-registry.js"></script>
+        <script src="components/scope-1.component.js"></script>
+        <script src="components/scope-2.component.js"></script>
+        <script src="components/scope-3.component.js"></script>
+        <script src="components/scoped-wrapper.component.js"></script>
+    </head>
+    <body>
+        <h4>Scoped registry examples</h4>
+        <div>
+            <scoped-wrapper scope="scope-1">
+                <template>
+                    <scoped-element></scoped-element>
+                </template>
+            </scoped-wrapper>
+        </div>
+        <div>
+            <scoped-wrapper scope="scope-2">
+                <template>
+                    <scoped-element></scoped-element>
+                </template>
+            </scoped-wrapper>
+        </div>
+        <div>
+            <scoped-wrapper scope="scope-1">
+                <template>
+                    <scoped-element></scoped-element>
+                </template>
+            </scoped-wrapper>
+        </div>
+        <div>
+            <scoped-wrapper scope="scope-2">
+                <template>
+                    <scoped-element></scoped-element>
+                </template>
+            </scoped-wrapper>
+        </div>
+    </body>
+</html>
