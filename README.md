@@ -43,7 +43,7 @@ And visit [http://127.0.0.1:8080](http://127.0.0.1:8080) or [http://192.168.178.
 
 ### Assets and folder structure
 
-Here is the [index.html](./observed-properties/index.html) with two script files; one for extending observed attributes, and one for our dummy web component:
+Here is the [index.html](./observed-properties/index.html) with two script files; one for extending observed properties, and one for our dummy web component:
 
 ```html
 <!DOCTYPE html>
